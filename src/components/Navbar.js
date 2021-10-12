@@ -12,8 +12,8 @@ const navigation = [
 
 export default function Example() {
   return (
-    <nav id="header" class="w-full z-30 top-0 text-white jj">
-      <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2 jj">
+    <nav id="header" class="fixed w-full z-30 top-0 text-white bg-gray-800">
+      <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2 bg-gray-800">
         <div class="pl-4 flex items-center">
           <a
             class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
