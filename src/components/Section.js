@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Section() {
   return (
-    <section className="bg-white border-b py-8">
+    <section className="bg-white border-b py-8" id="dashboard">
       <div className="container mx-auto flex flex-wrap pt-4 pb-12">
         <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
           Title
@@ -13,7 +13,7 @@ export default function Section() {
         <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
           <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
             <a
-              href="#"
+              href="#/"
               className="flex flex-wrap no-underline hover:no-underline"
             >
               <p className="w-full text-gray-600 text-xs md:text-sm px-6">
@@ -39,7 +39,7 @@ export default function Section() {
         <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
           <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
             <a
-              href="#"
+              href="#/"
               className="flex flex-wrap no-underline hover:no-underline"
             >
               <p className="w-full text-gray-600 text-xs md:text-sm px-6">
@@ -65,7 +65,7 @@ export default function Section() {
         <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
           <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
             <a
-              href="#"
+              href="#/"
               className="flex flex-wrap no-underline hover:no-underline"
             >
               <p className="w-full text-gray-600 text-xs md:text-sm px-6">

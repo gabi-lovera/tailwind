@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Pricing() {
   return (
-    <section className=" py-8 bg-gray-50">
+    <section className=" py-8 bg-gray-50" id="team">
       <div className="container mx-auto px-2 pt-4 pb-12 text-gray-800">
         <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
           Pricing
@@ -23,7 +23,7 @@ export default function Pricing() {
                   <img
                     className="object-center object-cover rounded-full h-36 w-36"
                     src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
-                    alt="photo"
+                    alt="profile-15"
                   />
                 </div>
                 <div className="text-center">
@@ -40,7 +40,7 @@ export default function Pricing() {
                   <img
                     className="object-center object-cover rounded-full h-36 w-36"
                     src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
-                    alt="photo"
+                    alt="profile-14"
                   />
                 </div>
                 <div className="text-center">
@@ -57,7 +57,7 @@ export default function Pricing() {
                   <img
                     className="object-center object-cover rounded-full h-36 w-36"
                     src="https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1176&q=80"
-                    alt="photo"
+                    alt="profile-149"
                   />
                 </div>
                 <div className="text-center">
@@ -72,7 +72,7 @@ export default function Pricing() {
                   <img
                     className="object-center object-cover rounded-full h-36 w-36"
                     src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
-                    alt="photo"
+                    alt="profile-157"
                   />
                 </div>
                 <div className="text-center">
@@ -89,7 +89,7 @@ export default function Pricing() {
                   <img
                     className="object-center object-cover rounded-full h-36 w-36"
                     src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
-                    alt="photo"
+                    alt="profile-143"
                   />
                 </div>
                 <div className="text-center">
@@ -106,7 +106,7 @@ export default function Pricing() {
                   <img
                     className="object-center object-cover rounded-full h-36 w-36"
                     src="https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1176&q=80"
-                    alt="photo"
+                    alt="profile-149"
                   />
                 </div>
                 <div className="text-center">

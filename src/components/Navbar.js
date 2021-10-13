@@ -1,20 +1,20 @@
 import React from "react";
 
 const navigation = [
-  { name: "Dashboard", href: "#", current: true },
-  { name: "Team", href: "#", current: false },
-  { name: "Projects", href: "#", current: false },
-  { name: "Calendar", href: "#", current: false },
+  { name: "Dashboard", href: "#dashboard", current: true },
+  { name: "Team", href: "#team", current: false },
+  { name: "Projects", href: "#project", current: false },
+  { name: "Calendar", href: "#calendar", current: false },
 ];
 
 export default function Example() {
   return (
     <nav id="header" className="fixed w-full z-30 top-0 text-white bg-gray-800">
       <div className="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2 bg-gray-800">
-        <div className="pl-4 flex items-center">
+        <div className="pl-4 flex items-center flex-1">
           <a
             className="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
-            href="#"
+            href="#hero"
           >
             <svg
               className="h-8 fill-current inline"
@@ -53,7 +53,7 @@ export default function Example() {
           </button>
         </div>
         <div
-          className="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
+          className="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20 flex-1"
           id="nav-content"
         >
           <div classname="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
@@ -72,12 +72,14 @@ export default function Example() {
               </div>
             </div>
           </div>
-          <button
-            id="navAction"
-            className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-          >
-            Action
-          </button>
+          <div className="pl-1">
+            <button
+              id="navAction"
+              className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out "
+            >
+              Action
+            </button>
+          </div>
         </div>
       </div>
     </nav>

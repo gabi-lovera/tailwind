@@ -8,7 +8,7 @@ export default function Footer() {
           <div className="flex-1 mb-6 text-black">
             <a
               className="text-pink-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
-              href="#"
+              href="#/"
             >
               <svg
                 className="h-8 fill-current inline"
@@ -36,7 +36,7 @@ export default function Footer() {
             <ul className="list-reset mb-6">
               <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
-                  href="#"
+                  href="#/"
                   className="no-underline hover:underline text-gray-800 hover:text-pink-500"
                 >
                   FAQ
@@ -44,7 +44,7 @@ export default function Footer() {
               </li>
               <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
-                  href="#"
+                  href="#/"
                   className="no-underline hover:underline text-gray-800 hover:text-pink-500"
                 >
                   Help
@@ -52,7 +52,7 @@ export default function Footer() {
               </li>
               <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
-                  href="#"
+                  href="#/"
                   className="no-underline hover:underline text-gray-800 hover:text-pink-500"
                 >
                   Support
@@ -65,7 +65,7 @@ export default function Footer() {
             <ul className="list-reset mb-6">
               <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
-                  href="#"
+                  href="#/"
                   className="no-underline hover:underline text-gray-800 hover:text-pink-500"
                 >
                   Terms
@@ -73,7 +73,7 @@ export default function Footer() {
               </li>
               <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
-                  href="#"
+                  href="#/"
                   className="no-underline hover:underline text-gray-800 hover:text-pink-500"
                 >
                   Privacy
@@ -86,7 +86,7 @@ export default function Footer() {
             <ul className="list-reset mb-6">
               <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
-                  href="#"
+                  href="#/"
                   className="no-underline hover:underline text-gray-800 hover:text-pink-500"
                 >
                   Facebook
@@ -94,7 +94,7 @@ export default function Footer() {
               </li>
               <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
-                  href="#"
+                  href="#/"
                   className="no-underline hover:underline text-gray-800 hover:text-pink-500"
                 >
                   Linkedin
@@ -102,7 +102,7 @@ export default function Footer() {
               </li>
               <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
-                  href="#"
+                  href="#/"
                   className="no-underline hover:underline text-gray-800 hover:text-pink-500"
                 >
                   Twitter
@@ -115,7 +115,7 @@ export default function Footer() {
             <ul className="list-reset mb-6">
               <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
-                  href="#"
+                  href="#/"
                   className="no-underline hover:underline text-gray-800 hover:text-pink-500"
                 >
                   Official Blog
@@ -123,7 +123,7 @@ export default function Footer() {
               </li>
               <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
-                  href="#"
+                  href="#/"
                   className="no-underline hover:underline text-gray-800 hover:text-pink-500"
                 >
                   About Us
@@ -131,7 +131,7 @@ export default function Footer() {
               </li>
               <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
-                  href="#"
+                  href="#/"
                   className="no-underline hover:underline text-gray-800 hover:text-pink-500"
                 >
                   Contact
