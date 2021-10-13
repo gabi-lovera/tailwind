@@ -19,7 +19,7 @@ export default function Intro() {
         </div>
 
         <div class="w-full md:w-3/5 py-6 text-center">
-          sdfdsfs
+          
         </div>
       </div>
     </div>
